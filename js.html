@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+
+</head>
+<body>
+		enter 1st no: <input type="number" id="value1" name="value1" value=" "/><br>
+		enter 2nd no: <input type="number" id="value2" name="value2" value=" "/><br>
+		<button id="mybtn" onclick="myclick(event)">
+			Add
+		</button>
+		<label id="output"></label>
+
+<script>
+		function myclick(event) {
+			console.log(event);
+		var num1=document.getElementById("value1").value;
+		var num2=document.getElementById("value2").value;
+		console.log(value1,value2);
+		document.getElementById("output").innerHTML=value1+value2;
+
+	</script>
+		
+	
+
+</body>
+</html>

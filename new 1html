@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>forms</title>
+<body>
+<form>
+user name: <input type="text" maxlength="20" placeholder="first name">
+<br>
+password: <input type="password" maxlength="20">
+<br>
+message
+<br>
+<!---------------------text area----------------------------------->
+<textarea rows = "5" cols = "20" name = "description" ></textarea>
+<br>
+<br>
+<input type = "file">
+<br>
+<input type = "submit" value= "send"/>
+
+</form>
+
+</body>
+</html>	
